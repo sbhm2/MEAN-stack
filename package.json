@@ -1,0 +1,24 @@
+{
+  "name": "wishlistapi",
+  "version": "1.0.0",
+  "description": "Api for wishlist",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "crypto": "^1.0.1",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.2",
+    "nconf": "0.11.2"
+  },
+  "author": "shubham",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
